@@ -1,0 +1,149 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   background-image: url("./shara\ desert.jpg");
+}
+
+.logo {
+   width: 70px;
+   height: 70px;
+   cursor: pointer;
+}
+
+.head {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   margin: auto;
+   margin-top: 30px;
+   box-sizing: border-box;
+}
+
+.navigation {
+   width: 500px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 18px;
+}
+.navigation a {
+   color: whitesmoke;
+
+}
+
+.main {
+   width: 80%;
+   height: 800px;
+   margin: auto;
+   margin-right: 250px;
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.first {
+   width: 48%;
+   height: 300px;
+   color: whitesmoke;
+}
+
+h1 {
+   font-size: 110px;
+}
+
+p {
+   font-size: 21px;
+   line-height: 30px;
+}
+
+.explore {
+   background-color: white;
+   width: 200px;
+   height: 50px;
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+div a {
+   color: black;
+   text-decoration: none;
+}
+
+.second {
+   width: 48%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   flex-wrap: wrap;
+}
+
+.box{
+   border-radius: 20px;
+   width: 340px;
+   height: 340px;
+   background-size: cover;
+   color: white;
+}
+
+.box p {
+   font-size: 13px;
+   margin-left: 30px;
+   line-height: 40px;
+}
+
+.box h3 {
+   margin-top: 20px;
+   margin-left: 30px;
+}
+
+.box1 {
+   background-image: url("./pic-1.png");
+}
+
+.box2 {
+   background-image: url("./pic-2.png");
+}
+
+.box3 {
+   background-image: url("./pic-3.png");
+}
+
+.box4 {
+   background-image: url("./pic-4.png");
+}
+
+@media screen and (max-width: 856px) {
+   .main {
+      display: block;
+      margin: auto;
+   }
+
+   h1 {
+      font-size: 50px;
+   }
+
+   .first {
+      width: 680px;
+   }
+
+   .second {
+      margin: auto;
+      width: 680px;
+   }
+
+   .box {
+      width: 500px;
+      height: 350px;
+   }
+}
