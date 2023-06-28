@@ -16,7 +16,6 @@ body {
 .head {
    display: flex;
    justify-content: space-between;
-   align-items: center;
    width: 80%;
    margin: auto;
    margin-top: 30px;
@@ -30,9 +29,9 @@ body {
    align-items: center;
    font-size: 18px;
 }
+
 .navigation a {
    color: whitesmoke;
-
 }
 
 .main {
@@ -124,6 +123,11 @@ div a {
 }
 
 @media screen and (max-width: 856px) {
+
+   .navigation {
+      width: 350px;
+   }
+
    .main {
       display: block;
       margin: auto;
